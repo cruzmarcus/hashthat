@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hashthat"
+version = "0.1.0"
+description = ""
+authors = ["Marcus Cruz <marcus.v.s.c13@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+django = "^5.0.1"
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.1"
+isort = "^5.13.2"
+selenium = "^4.16.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
